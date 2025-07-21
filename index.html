@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Mundo à Vista</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!-- CSS externo -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <h1><i class="bi bi-globe-americas"></i> Mundo à Vista</h1>
+    <p class="slogan">Viagens que encantam, memórias que ficam.</p>
+  </header>
+
+  <!-- Menu -->
+  <nav>
+    <a href="#">Início</a>
+    <a href="#">Pacotes</a>
+    <a href="#">Contato</a>
+  </nav>
+
+  <!-- Seção de Pacotes -->
+  <section class="pacotes-section">
+    <h2><i class="bi bi-airplane pacotes-icon"></i>Pacotes de viagens</h2>
+
+    <form class="form-pacotes">
+      <input type="text" placeholder="Origem">
+      <input type="text" placeholder="Destino">
+      <input type="date" placeholder="Entrada">
+      <input type="date" placeholder="Saída">
+      <select>
+        <option>Quartos</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3+</option>
+      </select>
+      <select>
+        <option>Hóspedes</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3+</option>
+      </select>
+      <button type="submit"><i class="bi bi-search"></i> Buscar</button>
+    </form>
+  </section>
+    <!-- Pacotes em Destaque -->
+  <section class="pacotes">
+    <h2><i class="fas fa-suitcase-rolling"></i> Pacotes em Destaque</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="img/Bahia.jpg" alt="Salvador" />
+        <h3>Salvador, BA</h3>
+        <p>Pacote completo com hotel + passagem</p>
+      </div>
+      <div class="card">
+        <img src="img/Sao-Paulo.jpg" alt="São Paulo" />
+        <h3>São Paulo, SP</h3>
+        <p>Explore a cidade que nunca dorme</p>
+      </div>
+      <div class="card">
+        <img src="img/Rio de Janiro.jpg" alt="Rio de Janeiro" />
+        <h3>Rio de Janeiro, RJ</h3>
+        <p>Visite o Cristo Redentor e Copacabana</p>
+      </div>
+    </div>
+  </section>
+  <!-- Rodapé -->
+  <footer>
+    &copy; 2025 Mundo à Vista. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
